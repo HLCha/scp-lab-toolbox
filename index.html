@@ -22,12 +22,14 @@
 footer{position:relative;z-index:4}.profile-wrap{position:relative;width:fit-content}.profile-popover{display:none;position:absolute;bottom:100%;left:0;width:min(330px,calc(100vw - 65px));padding:12px;background:#fffffff5;box-shadow:0 12px 35px #514a7824;border:1px solid #eee9ff;border-radius:18px;flex-wrap:wrap;gap:7px;max-height:240px;overflow:auto;z-index:8}.profile-wrap:hover .profile-popover,.profile-wrap:focus-within .profile-popover,.profile-wrap.open .profile-popover{display:flex;animation:appear .16s ease}.profile-add{font-size:11px;padding:7px 12px;color:#8a809e;border-radius:999px}.profile-add:hover{background:#f0edfa}.person-filter{display:block;width:fit-content;margin:10px auto 0}.author-name{--person-hue:250;font-size:inherit;padding:1px 0;color:hsl(var(--person-hue) 30% 50%);border-bottom:1px dotted transparent}.author-name:hover,.author-name:focus-visible{border-color:currentColor}
 
 /* A single quiet palette for names, independent of the selected profile. */
-.person-tab{border-color:#e4ddf4;background:#f5f1fc;color:#8a78aa}.person-tab.active{background:#e8def8;box-shadow:0 0 0 1px #c9b7e4}.author-name{color:#9582b5}.profile-button{color:#907cab;background:#f0e9fa}
+.person-tab{border-color:#e4ddf4;background:#f5f1fc;color:#8a78aa}.person-tab.active{background:#e8def8;box-shadow:0 0 0 1px #c9b7e4}.author-name{color:#8f7caf}.profile-button{color:#907cab;background:#f0e9fa}
 .entry.incoming{margin-left:0;margin-right:auto}.entry.own{margin-left:auto;margin-right:0}
-.entry.incoming .bubble,.entry.incoming.work .bubble,.entry.incoming.research .bubble{background:linear-gradient(125deg,#fff,#f5f1ff);border-radius:24px 24px 24px 7px}
+.entry.incoming .bubble,.entry.incoming.work .bubble,.entry.incoming.research .bubble{background:#fff;border:1px solid #ded8ee;box-shadow:0 5px 18px #75658e0d;border-radius:24px 24px 24px 7px}
 .entry.incoming .meta,.entry.incoming .tags{justify-content:flex-start}.entry.own .meta,.entry.own .tags{justify-content:flex-end}
-.reply-button{width:24px;height:22px;padding:2px;color:#9c8ab8}.reply-button svg{width:16px;height:16px}.reply-quote{display:block;text-align:left;border-left:2px solid #baa6d7;padding:3px 9px;margin:0 0 10px;color:#9482aa;font-size:11px;line-height:1.6;max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere}.reply-quote span{display:block;max-height:42px;overflow:hidden}.replybar{display:flex;gap:10px;align-items:center;font-size:11px;color:#9380aa;margin:0 0 8px;padding:0 7px}.replybar span{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.replybar .icon{width:24px;height:24px}.replybar svg{width:14px;height:14px}
+.reply-button{width:24px;height:22px;padding:2px;color:#9583b1}.reply-button svg{width:16px;height:16px}.reply-quote{display:block;text-align:left;border-left:2px solid #baa6d7;padding:3px 9px;margin:0 0 10px;color:#9482aa;font-size:11px;line-height:1.6;max-width:100%;white-space:pre-wrap;overflow-wrap:anywhere}.reply-quote span{display:block;max-height:42px;overflow:hidden}.replybar{display:flex;gap:10px;align-items:center;font-size:11px;color:#9380aa;margin:0 0 8px;padding:0 7px}.replybar span{flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.replybar .icon{width:24px;height:24px}.replybar svg{width:14px;height:14px}
 @media(max-width:600px){.entry.incoming .bubble,.entry.incoming.work .bubble,.entry.incoming.research .bubble{border-radius:21px 21px 21px 6px}}
+
+.entry .meta{color:#9b96ae}
 </style></head>
 <body>
 <svg class="symbols" xmlns="http://www.w3.org/2000/svg"><defs>
